@@ -63,22 +63,22 @@ public class keypressmove : MonoBehaviour
         JoystickMovement();
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Translate(0.5f, 0f, 0f);
+            transform.Translate(0.7f, 0f, 0f);
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.Translate(-0.5f, 0f, 0f);
+            transform.Translate(-0.7f, 0f, 0f);
         }
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            transform.Translate(0.0f, 0f, -0.5f);
+            transform.Translate(0.0f, 0f, -0.7f);
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            transform.Translate(0.0f, 0f, 0.5f);
+            transform.Translate(0.0f, 0f, 0.7f);
         }
 
-        if (Input.GetButtonDown("West"))
+        if (Input.GetKeyDown(KeyCode.D))
         {
             Debug.Log("colliders.Count:" + colliders.Count);
             foreach (Collider cols in colliders)

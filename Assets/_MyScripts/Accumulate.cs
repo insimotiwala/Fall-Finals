@@ -18,19 +18,19 @@ public class Accumulate : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.UpArrow))
             {
-                transform.Translate(0.5f, 0f, 0f);
+                transform.Translate(0.8f, 0f, 0f);
             }
             if (Input.GetKey(KeyCode.DownArrow))
             {
-                transform.Translate(-0.5f, 0f, 0f);
+                transform.Translate(-0.8f, 0f, 0f);
             }
             if (Input.GetKey(KeyCode.RightArrow))
             {
-                transform.Translate(0.0f, 0f, -0.5f);
+                transform.Translate(0.0f, 0f, -0.8f);
             }
             if (Input.GetKey(KeyCode.LeftArrow))
             {
-                transform.Translate(0.0f, 0f, 0.5f);
+                transform.Translate(0.0f, 0f, 0.8f);
             }
         }
     }

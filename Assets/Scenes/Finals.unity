@@ -5476,7 +5476,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -282, y: 26}
+  m_AnchoredPosition: {x: -139.6, y: 16.5}
   m_SizeDelta: {x: 1104, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &487184671
@@ -5501,7 +5501,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9f6b00c89ac184e4f9c85356f942a8d7, type: 3}
-    m_FontSize: 20
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
@@ -5512,8 +5512,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Press X to drop elements and Y to restart the Game
+  m_Text: 'Press D to drop elements and R to restart the game
 
+    Press the Spacebar
+    & C to change camera views
 
 
 '
@@ -8386,7 +8388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d3cec573c2c1442be5a76459433532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
+  speed: 60
   Roboparts: []
 --- !u!135 &682457058
 SphereCollider:
@@ -22767,7 +22769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -23239,7 +23241,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9f6b00c89ac184e4f9c85356f942a8d7, type: 3}
-    m_FontSize: 40
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
@@ -23250,7 +23252,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Pick up elements on the path to make a Giant robot!
+  m_Text: 'Pick up elements along the path to make a Giant robot!
 
 
 

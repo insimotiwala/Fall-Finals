@@ -18,13 +18,16 @@ public class ChangeCamera : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetButtonDown("RightBumper"))
+        //if (Input.GetButtonDown("RightBumper"))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             camera1.SetActive(false);
             camera2.SetActive(true);
         }
 
-        if (Input.GetButtonDown("LeftBumper"))
+        //if (Input.GetButtonDown("LeftBumper"))
+        if (Input.GetKeyDown(KeyCode.C))
+
         {
             camera1.SetActive(true);
             camera2.SetActive(false);
